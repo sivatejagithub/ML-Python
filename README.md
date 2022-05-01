@@ -1,2 +1,5 @@
-# ML-Deep Learning-Python
-I want to update all my codes and projects while learning ML and Deep Learning.
+# learning use of github markdown 
+`a =3
+b = 4
+c = a+b`
+

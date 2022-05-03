@@ -1,0 +1,43 @@
+# Pythone basics note
+
+## Object Creation and Naming Rules
+
+1. how to get the list of reserved words 
+
+>`import keyword`
+
+>`print(keyword.kwlist)`
+
+# TypeCasting
+to get the type of an object
+`type(variable_name)`
+
+- x = '4' <-- is a text type,
+to convert it into int, we can convert into int --> 
+`y= int(x)`
+now, y = 4 is an int type.
+
+## Numeric Data and Operations
+
+- ^ is a bitwise operator, do not use for power, for power use ** operator.
+
+## Boolean Data and Operations
+
+- #### and operator 
+---> `x and y , x & y` both why works.
+
+- #### or operator
+--->  `x or y , x | y ` both why works.
+
+- #### in operator 
+--->  `x ='python' ,y = 'py', y in x gives you truth`.
+
+## String Data and Operations
+
+- #### replace operator
+---> `z = 'PythonData' , replace(old, new, count=-1) , z.replace('a',"@#!",1), z = Python @#!nd Data`.
+
+## Indexing
+
+- #### split operator
+---> `x='lalit-sachan', split(sep=None, maxsplit=-1), x.split('l'), ans--> ['', 'a', 'it-sachan']`
